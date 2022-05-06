@@ -202,14 +202,6 @@ footer{
     font-family: 'Poppins', sans-serif;
 }
 
-footer .noodle{
-    height: 13vh;
-    width: 10vw;
-    
-}
-
-
-
 @media (min-width: 490px){
     
     footer a{
@@ -257,10 +249,6 @@ footer .noodle{
         
     }
 
-    footer .noodle{
-        display: none ;
-        
-    }
     footer{
         
         font-size: 0.8rem;
