@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&family=Poppins:ital,wght@0,200;0,500;1,400;1,500&family=Radio+Canada:wght@500&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+   margin: 0px; 
+   padding: 0px;
+   background-color: black; 
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.904);
+    border-bottom: solid 4px rgb(60, 62, 189); 
+    width: 100%;
+    
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+   
+}
+
+nav img{
+    width: 9vw;
+    height: 13vh;
+    padding: 1rem;
+
+}
+
+main{
+    background-image: url(midia/dark-gorillaz.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+   
+    
+    display: flex;
+    font-family: 'Kanit', sans-serif;  
+   
+}
+
+main h1{
+    color: black;
+    font-size: 4rem;
+}
+
+main img{  
+    height: 60vh;
+    width: 94%;
+    margin: 0.1rem;
+    
+    
+}
+
+aside{
+    background: linear-gradient(90deg, rgba(35, 35, 156, 0.904) 0%, rgb(68, 74, 185) 47%, rgba(35, 35, 156, 0.904) 90%);
+    border-radius: 6px;
+    width: 40%;
+    padding: 2.6rem;
+    margin: 1.5rem;
+    
+    
+    font-family: 'Poppins', sans-serif;
+    display:inline;
+}
+
+aside .logo{
+    width: 20vw;
+    height: 10vh;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+aside p{
+    color: white;
+    background-color: black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+aside h2{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+    
+    
+}
+
+aside img{
+    margin: 0.1rem;
+    width: 74%;
+    height:7vh;  
+    
+    
+
+}
+
+aside .logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+aside .links{
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103%;
+    height: 13vh;
+}
+
+aside .twod{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.twod img{
+    border: solid black;
+    background-color: black;
+    height: 20vw;
+    width: 18vw;
+    margin: 0.7rem;
+}
+
+div.links{
+    border-radius: 4rem;
+    width: 100%;
+    
+    
+}
+
+.links button{
+    border: blue 1px;
+    background-color: black;
+    
+}
+
+.links button:hover{
+    background-color: blue;
+    border-radius: 4rem;
+    transition: 0.4s all;
+    padding: 0.1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin: 0.5rem ;
+
+    
+}
+
+article{
+    width: 100%;
+}
+
+article img{
+    display: flex;
+    justify-content: flex-end;
+    height: 30vh;
+    width: 50vw;
+}
+
+.foto-banda{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+footer{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 0.4rem rgb(60, 62, 189);
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .noodle{
+    height: 13vh;
+    width: 10vw;
+    
+}
+
+
+
+@media (min-width: 490px){
+    
+    footer a{
+        padding: 1rem;
+    }
+    footer span{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 600px){
+    header img{
+        display: flex;
+        width: 7rem;
+        height: 5rem;
+        justify-content: space-between;
+    }
+    main{
+        background-image: url(midia/back-mobile.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    aside{
+        
+        width: 66%;
+    }
+    
+    aside .logo{
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    }
+    .foto-banda{
+        display: none;
+        
+    }
+
+    footer .noodle{
+        display: none ;
+        
+    }
+    footer{
+        
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    footer img{
+        padding: 0.6rem;
+        margin: 1rem;
+        width: 3.3rem;
+        
+    }
+
+@media (max-width: 930px){
+    header img{
+        width: 15vw;
+        
+    }
+}
+
